@@ -1,14 +1,11 @@
 body{
 	background-color: #232323;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #container{
 	max-width: 600px;
 	margin: 0 auto;
-}
-
-span{
-	color: white;
 }
 
 .square{
@@ -19,6 +16,31 @@ span{
 	margin: 1.66%;
 }
 
-h1{
-	color: white;
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
 }
+
+.jumbotron{
+	background-color: steelblue;
+	margin: 0;
+	padding: 0.5em 0.6em;
+}
+
+.jumbotron > h1{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+#color{
+	display: block;
+	font-size: 200%;
+	padding: 20px;
+}
+
+.selected{
+	background-color: blue;
+}
+
